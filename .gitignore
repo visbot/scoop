@@ -1,0 +1,17 @@
+# dependencies
+bower_components/
+node_modules/
+vendor/
+
+# package manager files
+npm-debug.log*
+package-lock.json
+yarn-error.log
+yarn.lock
+
+# development
+.eslintcache
+*.map
+
+# project specific
+todo.md
