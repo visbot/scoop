@@ -1,0 +1,18 @@
+{
+	"version": "5.571",
+	"description": "Winamp v5",
+	"homepage": "https://winamp.com",
+	"license": "Proprietary",
+	"url": "https://visbot.net/downloads/winamp/winamp5571_full_emusic-7plus_en-us.exe",
+	"hash": "014a8330240b4a055a8e40a4d03c57a41285c3aac540704f7dae708b4a5a180d",
+	"env_set": {
+		"WINAMP_HOME": "$dir"
+	},
+	"installer": {
+		"args": ["/S", "/D=$dir"]
+	},
+	"uninstaller": {
+		"file": "UninstWA.exe",
+		"args": "/S"
+	}
+}
