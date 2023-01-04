@@ -11,17 +11,17 @@
     "installer": {
         "script": [
 						"New-Item \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\" -ItemType Directory",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__curvaceous.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__random_anja_(yathosho_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\nemoorange__en_la_primavera.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\nemoorange__miraculous_flow_(duo_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\skupers__the nights.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
-            "Copy-Item -Force \"$dir\\VC001-0.0.0\\avs\\skupers_lp6_01.bmp\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\""
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__curvaceous.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__random_anja_(yathosho_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\nemoorange__en_la_primavera.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\nemoorange__miraculous_flow_(duo_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\skupers__the nights.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\"",
+            "Copy-Item -Force \"$dir\\VC001-$version\\avs\\skupers_lp6_01.bmp\" \"$(appdir visbot/winamp2 $global)\\Plugins\\avs\""
         ]
     },
     "uninstaller": {
