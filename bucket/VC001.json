@@ -35,7 +35,7 @@
             "Remove-Item -Force \"$(appdir visbot/winamp2 $global)\\current\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\"",
             "Remove-Item -Force \"$(appdir visbot/winamp2 $global)\\current\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\"",
             "Remove-Item -Force \"$(appdir visbot/winamp2 $global)\\current\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\"",
-            "Remove-Item -Recurse -Force \"$(appdir visbot/winamp2 $global)\\current\\avs\\VISBOT\\VC001 The First Season"
+            "Remove-Item -Recurse -Force \"$(appdir visbot/winamp2 $global)\\current\\avs\\VISBOT\\VC001 The First Season\""
         ]
     }
 }
