@@ -12,7 +12,7 @@
 			"New-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\" -ItemType Directory",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\01 skupers - intro.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\02 tuggummi meets a3 - alienporn (ghastly mix).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\03 yathosho meets oussy - clichéwise.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\03 yathosho meets oussy - clichéwise.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\04 duo meets zxe - pleasure point.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\05 skupers meets tuggummi - dezirot.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\06 zamuz meets jdm - fake (still not real remix).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
@@ -54,7 +54,7 @@
 		"script": [
 			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\01 skupers - intro.avs\"",
 			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\02 tuggummi meets a3 - alienporn (ghastly mix).avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\03 yathosho meets oussy - clichéwise.avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\03 yathosho meets oussy - clichéwise.avs\"",
 			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\04 duo meets zxe - pleasure point.avs\"",
 			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\05 skupers meets tuggummi - dezirot.avs\"",
 			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\06 zamuz meets jdm - fake (still not real remix).avs\"",
