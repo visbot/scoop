@@ -8,6 +8,7 @@
 	"hash": "c83a6a74ead87f07893f2c20196f5a554d0032d9f501921211222f321bf7f6fa",
 	"installer": {
 		"script": [
+			"Get-Content \"$dir\\file_id.diz\"",
 			"New-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\" -ItemType Directory",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
