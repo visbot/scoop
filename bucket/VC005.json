@@ -36,11 +36,11 @@
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC005 The Second Season\\24 a3 - moboids+neon.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC005 The Second Season\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC005 The Second Season\\25 skupers - dual flow (yathosho's cheap trick mix).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC005 The Second Season\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC005 The Second Season\\26 zamuz - big bang (duo's nitroglycerin mix).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC005 The Second Season\"",
-			"Copy-Item -Force \"$dir\\avs\\avsres_texer_circle_fade_29x29.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\v4_texer2.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\v4_texer7.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\vb.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\Zmzv3_texer.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\avsres_texer_circle_fade_29x29.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\v4_texer2.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\v4_texer7.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\vb.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\Zmzv3_texer.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
 			"Write Host \"\"; Write-Warning \"\nThis installer wants to install selected APEs required by the presets in the pack. However, if you prefer to keep your locally installed versions, please skip the following step.\"",
 			"Copy-Item -Confirm -Force \"$dir\\avs\\*.ape\" \"$(appdir winamp $global)\\current\\Plugins\\avs\""
 		]

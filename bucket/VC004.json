@@ -41,11 +41,11 @@
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\29 yathosho meets tuggummi - let me out! (never say mix).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\\30 nemo meets zxe - juju (remix).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC004 VISBOT meets Finnish Flash\"",
 			"Copy-Item -Force \"$dir\\avs\\skupers_lp6_01.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\tug_3dpack_texer4.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\tug_bit2_style.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\vb.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\whacko6-03.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Copy-Item -Force \"$dir\\avs\\whacko6-07.bmp" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\tug_3dpack_texer4.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\tug_bit2_style.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\vb.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\whacko6-03.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Force \"$dir\\avs\\whacko6-07.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
 			"Write Host \"\"; Write-Warning \"\nThis installer wants to install selected APEs required by the presets in the pack. However, if you prefer to keep your locally installed versions, please skip the following step.\"",
 			"Copy-Item -Confirm -Force \"$dir\\avs\\*.ape\" \"$(appdir winamp $global)\\current\\Plugins\\avs\""
 		]
