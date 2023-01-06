@@ -21,7 +21,7 @@
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
 			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
 			"Copy-Item -Force \"$dir\\avs\\skupers_lp6_01.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
-			"Write-Warning \"\nThis installer wants to install selected APEs required by the presets in the pack. However, if you prefer to keep your locally installed versions, please skip the following step.\"",
+			"Write Host \"\" && Write-Warning \"\nThis installer wants to install selected APEs required by the presets in the pack. However, if you prefer to keep your locally installed versions, please skip the following step.\"",
 			"Copy-Item -Confirm -Force \"$dir\\avs\\*.ape\" \"$(appdir winamp $global)\\current\\Plugins\\avs\""
 		]
 	},
