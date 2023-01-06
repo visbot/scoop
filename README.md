@@ -1,6 +1,8 @@
 # @visbot/scoop
 
-*Work in progress*
+> **Warning**
+> 
+> This repository is a proof of concept and is subject to change. Use at your own risk!
 
 VISBOT manifests for [Scoop](https://scoop.sh), the Windows command-line installer.
 
