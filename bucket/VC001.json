@@ -9,34 +9,34 @@
 	"installer": {
 		"script": [
 			"Get-Content \"$dir\\file_id.diz\"",
-			"New-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\" -ItemType Directory",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__curvaceous.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__random_anja_(yathosho_remixed).avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\nemoorange__en_la_primavera.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\nemoorange__miraculous_flow_(duo_remixed).avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\skupers__the nights.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\" \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
-			"Copy-Item -Force \"$dir\\avs\\skupers_lp6_01.bmp\" \"$(appdir winamp $global)\\Plugins\\avs\"",
-			"Copy-Item -Confirm -Force \"$dir\\avs\\*.ape\" \"$(appdir winamp $global)\\Plugins\\avs\""
+			"New-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\" -ItemType Directory",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__curvaceous.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__random_anja_(yathosho_remixed).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\nemoorange__en_la_primavera.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\nemoorange__miraculous_flow_(duo_remixed).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\skupers__the nights.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\" \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\"",
+			"Copy-Item -Force \"$dir\\avs\\skupers_lp6_01.bmp\" \"$(appdir winamp $global)\\current\\Plugins\\avs\"",
+			"Copy-Item -Confirm -Force \"$dir\\avs\\*.ape\" \"$(appdir winamp $global)\\current\\Plugins\\avs\""
 		]
 	},
 	"uninstaller": {
 		"script": [
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__curvaceous.avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__random_anja_(yathosho_remixed).avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\nemoorange__en_la_primavera.avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\nemoorange__miraculous_flow_(duo_remixed).avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\skupers__the nights.avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\"",
-			"Remove-Item -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\"",
-			"Remove-Item -Confirm -Recurse -Force \"$(appdir winamp $global)\\Plugins\\avs\\VISBOT\\VC001 The First Season\""
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\duo__incantation_(skupers_remixed).avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\duo__semicubist.avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__curvaceous.avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\dynamic_duo__random_anja_(yathosho_remixed).avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\nemoorange__en_la_primavera.avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\nemoorange__miraculous_flow_(duo_remixed).avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\skupers__the nights.avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\skupers__thinking_of_vietnam_(nemoorange_remixed).avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\yathosho__hotel_garni.avs\"",
+			"Remove-Item -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\\yathosho__knäck_en_dajm_njut.avs\"",
+			"Remove-Item -Confirm -Recurse -Force \"$(appdir winamp $global)\\current\\Plugins\\avs\\VISBOT\\VC001 The First Season\""
 		]
 	}
 }
