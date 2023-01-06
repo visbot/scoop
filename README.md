@@ -38,3 +38,4 @@ scoop install visbot/VC001
 ## Known Issues
 
 - font installation is currently unsupported
+- file names with Unicode characters might cause trouble
