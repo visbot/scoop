@@ -34,3 +34,7 @@ scoop install visbot/VC001
 ```
 
 :warning: Catalogue numbers are case-sensitive, so make sure you type them in uppercase!
+
+## Known Issues
+
+- font installation is currently unsupported
