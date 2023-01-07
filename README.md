@@ -17,7 +17,7 @@ scoop bucket add naderi_scoop-bucket https://github.com/naderi/scoop-bucket
 scoop install winamp
 ```
 
-There are several third-party [Winamp manifests](https://scoop.sh/#/apps?q=winamp) to choose from, others might work better for you!
+Note that there are several third-party [Winamp manifests](https://scoop.sh/#/apps?q=winamp) to choose from, others might work better for you!
 
 ## Installation
 
