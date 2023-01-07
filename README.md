@@ -1,6 +1,6 @@
 # @visbot/scoop
 
-*work in progress*
+:rotating_light:  *this repo is work in progress*
 
 VISBOT manifests for [Scoop](https://scoop.sh), the Windows command-line installer.
 
