@@ -15,6 +15,6 @@
     "lint-staged": "^13.1.0"
   },
 	"lint-staged": {
-			"*.json)": "eslint --cache --fix"
+			"*.json": "eslint --cache --fix"
 	}
 }
