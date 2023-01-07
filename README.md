@@ -8,7 +8,7 @@ VISBOT manifests for [Scoop](https://scoop.sh), the Windows command-line install
 
 ## Prerequisites
 
-Make sure that you have installed Winamp with Scoop, otherwise installing VISBOT releases won't work. There are [several third-party manifests](https://scoop.sh/#/apps?q=winamp) to choose from, some might be better suited for you than the following example!
+Make sure that you have installed Winamp with Scoop, otherwise installing VISBOT releases won't work.
 
 **Example**
 
@@ -16,6 +16,8 @@ Make sure that you have installed Winamp with Scoop, otherwise installing VISBOT
 scoop bucket add naderi_scoop-bucket https://github.com/naderi/scoop-bucket
 scoop install winamp
 ```
+
+There are several third-party [Winamp manifests](https://scoop.sh/#/apps?q=winamp) to choose from, others might work better for you!
 
 ## Installation
 
