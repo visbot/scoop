@@ -30,10 +30,10 @@ You can now install any VISBOT release using its catalogue number `scoop install
 **Example**
 
 ```powershell
-scoop install visbot/VC001
+scoop install visbot/vc001
 ```
 
-:warning: Catalogue numbers are case-sensitive, so make sure you type them in uppercase!
+:warning: Catalogue numbers are case-sensitive, so make sure you type them all lowercase!
 
 ## Known Issues
 
