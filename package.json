@@ -1,0 +1,20 @@
+{
+  "name": "@visbot/scoop",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Experimental Scoop manifests for VISBOT releases",
+  "scripts": {
+		"lint": "eslint bucket/*.json --ignore-path .gitignore",
+		"prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-plugin-json": "^3.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  },
+	"lint-staged": {
+			"*.json)": "eslint --cache --fix"
+	}
+}
